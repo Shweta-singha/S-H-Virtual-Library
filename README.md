@@ -85,55 +85,84 @@ S-H-Virtual-Library/
 ├── frontend/
 ├── back/
 └── README.md
+```
 
-Installation
-Clone Repository
+---
+
+# Installation
+
+## Clone Repository
+
+```bash
 git clone https://github.com/Shweta-singha/S-H-Virtual-Library.git
-Frontend Setup
+```
+
+---
+
+## Frontend Setup
+
+```bash
 cd frontend
 npm install
 npm run dev
+```
 
 Runs on:
 
+```bash
 http://localhost:3000
-Backend Setup
+```
+
+---
+
+## Backend Setup
+
+```bash
 cd back
 npm install
 npm run dev
+```
 
 Runs on:
 
+```bash
 http://localhost:5000
-Environment Variables
+```
+
+---
+
+# Environment Variables
 
 Create:
 
+```bash
 back/.env
+```
 
 Add:
 
+```env
 DATABASE_URL=
 JWT_SECRET=
 GOOGLE_CLIENT_ID=
 GOOGLE_CLIENT_SECRET=
 FRONTEND_URL=http://localhost:3000
 PORT=5000
-Future Improvements
-Pomodoro mode
-Group study leaderboards
-AI productivity insights
-Screen sharing
-Cloud deployment
-Mobile responsiveness improvements
-Author
+```
 
-Shweta Singha
+---
+
+# Future Improvements
+
+- Pomodoro mode
+- Group study leaderboards
+- AI productivity insights
+- Screen sharing
+- Cloud deployment
+- Mobile responsiveness improvements
+
+---
+
+# Author
 
 
-Then run:
-
-```bash
-git add .
-git commit -m "Update README"
-git push
