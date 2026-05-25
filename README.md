@@ -1,6 +1,7 @@
 # S&H Virtual Library
 
 A real-time collaborative virtual study platform where users can:
+
 - Create and join study rooms
 - Study together in real time
 - Track productivity and study sessions
@@ -12,16 +13,19 @@ A real-time collaborative virtual study platform where users can:
 # Features
 
 ## Authentication
+
 - Google OAuth 2.0 Login
 - Persistent Sessions
 - User Profile Integration
 
 ## Real-Time Collaboration
+
 - Socket.IO live room presence
 - WebRTC peer-to-peer video communication
 - Real-time study room updates
 
 ## Study Tracking
+
 - Start/Stop study timer
 - Session duration tracking
 - Productivity analytics
@@ -30,12 +34,14 @@ A real-time collaborative virtual study platform where users can:
 - Calendar visualization dashboard
 
 ## Backend
+
 - Express.js REST APIs
 - Prisma ORM integration
 - PostgreSQL (Neon) database
 - Real-time socket handling
 
 ## Frontend
+
 - Next.js App Router
 - Tailwind CSS UI
 - Responsive dashboard design
@@ -46,12 +52,14 @@ A real-time collaborative virtual study platform where users can:
 # Tech Stack
 
 ## Frontend
+
 - Next.js
 - React.js
 - TypeScript
 - Tailwind CSS
 
 ## Backend
+
 - Node.js
 - Express.js
 - Socket.IO
@@ -59,9 +67,11 @@ A real-time collaborative virtual study platform where users can:
 - Prisma ORM
 
 ## Database
+
 - PostgreSQL (Neon)
 
 ## Authentication
+
 - Google OAuth 2.0
 - JWT
 
@@ -75,3 +85,55 @@ S-H-Virtual-Library/
 ├── frontend/
 ├── back/
 └── README.md
+
+Installation
+Clone Repository
+git clone https://github.com/Shweta-singha/S-H-Virtual-Library.git
+Frontend Setup
+cd frontend
+npm install
+npm run dev
+
+Runs on:
+
+http://localhost:3000
+Backend Setup
+cd back
+npm install
+npm run dev
+
+Runs on:
+
+http://localhost:5000
+Environment Variables
+
+Create:
+
+back/.env
+
+Add:
+
+DATABASE_URL=
+JWT_SECRET=
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
+FRONTEND_URL=http://localhost:3000
+PORT=5000
+Future Improvements
+Pomodoro mode
+Group study leaderboards
+AI productivity insights
+Screen sharing
+Cloud deployment
+Mobile responsiveness improvements
+Author
+
+Shweta Singha
+
+
+Then run:
+
+```bash
+git add .
+git commit -m "Update README"
+git push
